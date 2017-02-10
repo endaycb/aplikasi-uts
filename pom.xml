@@ -21,6 +21,12 @@
 	    <version>2.5</version>
 	    <scope>provided</scope>
 	</dependency>
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>5.1.33</version>
+	    <scope>run</scope>
+	</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
