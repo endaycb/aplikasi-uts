@@ -30,7 +30,7 @@ public class FormMahasiswaServlet extends HttpServlet{
 		
 			mahasiswaDao.simpan(m);
 		
-			res.sendRedirect("/form.html");
+			res.sendRedirect("form.html");
 		} catch (Exception ex){
 			ex.printStackTrace();
 		}

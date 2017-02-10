@@ -14,10 +14,10 @@
 	
 	<servlet>
 		<servlet-name>FormMahasiswaServlet</servlet-name>
-		<servlet-class>com.muhardin.endy.belajar.aplikasi.uts.FormMahasiswaServlet</servlet-class>
+		<servlet-class>com.muhardin.edy.belajar.aplikasi.uts.FormMahasiswaServlet</servlet-class>
 	</servlet>
 	
-	<servlet-mappin>
+	<servlet-mapping>
 		<servlet-name>FormMahasiswaServlet</servlet-name>
 		<url-pattern>/simpan</url-pattern>
 	</servlet-mapping>

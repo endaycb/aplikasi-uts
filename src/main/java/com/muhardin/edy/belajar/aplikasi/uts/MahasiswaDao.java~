@@ -5,7 +5,7 @@ import java.sql.*;
 
 public class MahasiswaDao{
 	private Connection koneksiDatabase;
-	private String dbDriver = "com.mysql.jdbc.Driver";
+	private String dbDriver = "com.mysql.cj.jdbc.Driver";
 	private String dbUrl = "jdbc:mysql://localhost/uts";
 	private String dbUsername = "root";
 	private String dbPassword = "root";
@@ -34,7 +34,7 @@ public class MahasiswaDao{
 		}
 	}
 	
-	public void simpan(Mahasiwa m){
+	public void simpan(Mahasiswa m){
 		try {
 			connect();
 			
